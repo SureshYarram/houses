@@ -1,0 +1,64 @@
+{
+  "houses": [
+    {
+      "name": "suresh yarram",
+      "address": "Warangal,Telangana",
+      "ownerName": "sureshchowdary",
+      "areaCode": "506330",
+      "rent": "20000",
+      "bachelor": "on",
+      "image": "yyyyyyyyy",
+      "id": 1
+    },
+    {
+      "name": "suresh yarram",
+      "address": "Warangal,Telangana",
+      "ownerName": "sure",
+      "areaCode": "506330",
+      "rent": "20000",
+      "married": "on",
+      "image": "hhhhhh",
+      "id": 2
+    },
+    {
+      "name": "suresh yarram",
+      "address": "Warangal,Telangana",
+      "ownerName": "gdgdg",
+      "areaCode": "300",
+      "rent": "20000",
+      "bachelor": "on",
+      "image": "ggdwgdgd",
+      "id": 3
+    },
+    {
+      "name": "suresh yarram",
+      "address": "Warangal,Telangana",
+      "ownerName": "ghdsdbs",
+      "areaCode": "300",
+      "rent": "22222",
+      "bachelor": "on",
+      "image": "ghdegdggdg",
+      "id": 4
+    },
+    {
+      "married": "on",
+      "ownerName": "gsgs",
+      "address": "Warangal,Telangana",
+      "name": "rithik22",
+      "areaCode": "gewgggs",
+      "rent": "ghdeghewgew",
+      "image": "shsh",
+      "id": 5
+    },
+    {
+      "bachelor": "on",
+      "ownerName": "gdgdg",
+      "address": "Warangal,Telangana",
+      "name": "rithik22",
+      "areaCode": "hdshdh",
+      "image": "xdhg",
+      "rent": "dxggs",
+      "id": 6
+    }
+  ]
+}
