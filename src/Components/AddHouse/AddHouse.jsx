@@ -100,7 +100,7 @@ export const AddHouse = () => {
       </form>
 
       <div>
-        <Rentals result = {result } sortbyid={sortbyid} rentsortinc={rentsortinc} rentsordec={rentsortdec} sortareainc={sortareainc} sortareadec={sortareadec}/>
+        <Rentals result = {result } sortbyid={sortbyid} rentsortinc={rentsortinc} rentsortdec={rentsortdec} sortareainc={sortareainc} sortareadec={sortareadec}/>
       </div>
     </div>
   );

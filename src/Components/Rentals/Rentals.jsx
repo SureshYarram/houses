@@ -1,6 +1,6 @@
 import "./Rentals.css";
 
-export const Rentals = ({result,sortbyid,rentsortinc,rentsortdec}) => {
+export const Rentals = ({result,sortbyid,rentsortinc,rentsortdec,sortareainc,sortareadec}) => {
   return (
     <div className="rentalContainer">
       <div className="sortingButtons">
