@@ -53,6 +53,20 @@ export const AddHouse = () => {
         })
         setResult([...res])
       }
+      function sortareainc(){
+        let res = result.sort((a,b)=>{
+          if(a.areaCode<b.areaCode) return -1
+          return 0
+        })
+        setResult([...res])
+      }
+      function sortareadec(){
+        let res = result.sort((a,b)=>{
+          if(b.areaCode<a.areaCode) return -1
+          return 0
+        })
+        setResult([...res])
+      }
   return (
     <div className="addHouseContainer">
       <form onSubmit={Handlesubmit}>
@@ -86,7 +100,7 @@ export const AddHouse = () => {
       </form>
 
       <div>
-        <Rentals result = {result } sortbyid={sortbyid} rentsortinc={rentsortinc} rentsordec={rentsortdec} />
+        <Rentals result = {result } sortbyid={sortbyid} rentsortinc={rentsortinc} rentsordec={rentsortdec} sortareainc={sortareainc} sortareadec={sortareadec}/>
       </div>
     </div>
   );

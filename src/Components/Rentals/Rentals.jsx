@@ -7,8 +7,8 @@ export const Rentals = ({result,sortbyid,rentsortinc,rentsortdec}) => {
         <button onClick={()=>sortbyid()} className="sortById">Sort by ID</button>
         <button onClick={()=>rentsortinc()} className="sortByRentAsc">Rent Low to high</button>
         <button onClick={()=>rentsortdec()}className="sortByRentDesc">Rent High to low</button>
-        <button className="sortByAreaAsc">Area Low to high</button>
-        <button className="sortByAreaDesc">Area High to Low</button>
+        <button onClick={()=>sortareainc()}className="sortByAreaAsc">Area Low to high</button>
+        <button onClick={()=>sortareadec()}className="sortByAreaDesc">Area High to Low</button>
       </div>
       <input
         className="searchAddress"
